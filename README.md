@@ -7,7 +7,9 @@ The Analyzer performs data type validation to make sure the data types associate
 The Interpreter actually evaluates the code and extracts meaning from the code via calculations (executing the code / simplifying it)
 The Generator takes the values in the abstract syntax tree and essentially converts from our language to the java language and prints the java language analogous in functionality to this language, this way the Java compiler can actually execute and compile the code.
 
-At any point in the program, if a comment says that a method implementation is according the grammar, then reference the language's grammar below so there is no confusion:
+The project also includes test cases that were written as the project developed to make sure the code was valid and viable and to check to see if an implementation was correct before the entire project was done (essentially process checks).
+
+At any point in the program, if a comment says that a method implementation is according the grammar, then reference the language's grammar below so there is no confusion:  
 
 
 
